@@ -30,4 +30,4 @@ ScrollTrigger.addEventListener("refresh", () => locoScroll.update());
 ScrollTrigger.refresh();
 }
 
-loco()
+loco();
