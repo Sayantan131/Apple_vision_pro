@@ -26,7 +26,7 @@ html,body{
     height: 10vh;
     width: 50vw;
     position: absolute;
-    background-color: #000;
+    /* background-color: #000; */
     top: 0;
     left: 50%;
     transform: translateX(-50%);
