@@ -44,6 +44,18 @@ html,body{
 #page>nav>h3{
     font-weight: 500;
     }
+#page>video{
+    height: 100%;
+    width: 50%;
+    object-fit: cover;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#page-bottom{
+    
+}
 
 #page1{
     position: relative;
