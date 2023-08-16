@@ -101,11 +101,13 @@ html,body{
   } 
 
   #page2{
-    height: 100%;
-    width: 100%;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
   }
 
   #page2>video{
+    position: relative;
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -119,5 +121,9 @@ html,body{
    color: #fff;
    position: absolute;
    bottom: 20%;
+   left: 50%;
+   transform: translateX(-50%);
+   text-align: center;
+   white-space: nowrap;
   }
 
