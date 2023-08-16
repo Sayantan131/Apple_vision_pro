@@ -32,16 +32,41 @@ function loco() {
 
 loco();
 
-gsap.to("#page>video",{
-  scrollTrigger:{
-    trigger:`#page>video`,
-    start:`2% top`,
-    end:`bottom top`,
-    scroller:"#main"
+gsap.to("#page>video", {
+  scrollTrigger: {
+    trigger: `#page>video`,
+    start: `2% top`,
+    end: `bottom top`,
+    scroller: "#main"
   },
-  onStart: ()=> {
+  onStart: () => {
     document.querySelector("#page>video").play()
   }
 
 })
+
+gsap.to("#page",{
+  scrollTrigger:{
+      trigger:`#page`,  ///doubt1??????
+      start:`5% top`,
+      end:`bottom top`,
+      scroller:`#main`,
+      pin:true
+  }
+});
+
+
+gsap.to("#page-bottom", {
+  scrollTrigger: {
+    trigger: "#page-bottom",   //// doubt??????/
+    start: "5% top",
+    end: "bottom top",
+    scroller: "#main",
+    scrub: 0.5, // Uncomment this line if you want to use the scrubbing effect
+  },
+  opacity: 0
+});
+
+
+
 
