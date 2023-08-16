@@ -74,7 +74,7 @@ var tl  = gsap.timeline({
       scrub:`1`,
       scroller:`#main`,
       pin:true,
-      markers:true
+      // markers:true
     }
 })
 
