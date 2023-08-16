@@ -88,3 +88,18 @@ html,body{
     left: 50%;
     transform: translateX(-50%);
 }
+
+#page1>h1{
+   font-size: 3vw;
+   font-weight: 400;
+    position: absolute;
+    bottom: 20%;
+    color: #fff;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+  } 
+
+  
+
+
