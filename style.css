@@ -146,7 +146,7 @@ html,body{
   #page3-upper{
     height: 30%;
     width: 35%;
-    background-color: green;
+    /* background-color: green; */
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -159,6 +159,48 @@ html,body{
     left: 50%;
     top: 10%;
     transform: translateX(-50%);
-    width: 60%;
+    width: 70%;
   }
+
+  #page3-upper-inner{
+    position: absolute;
+    height: 60%;
+    width: 100%;
+    bottom: 0%;
+    /* left: 50%; */
+    /* transform: translateX(-50%); */
+    /* background-color: blue; */
+    color: #FF5A00;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 100px;
+
+  }
+
+  #page3-upper-inner>h3{
+    
+    font-weight: 500;
+  }  
+
+  #page3>button{
+    position: absolute;
+    bottom: 7%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.4vw;
+    font-weight: 300;
+    padding: 20px 30px;
+    border-radius: 50px;
+    background-color: #fff;
+    border: 1px solid black;
+    transition: 0.5s;
+  }
+
+  #page3>button:hover{
+    background-color: #000;
+    color: white;
+  }
+
+
 
