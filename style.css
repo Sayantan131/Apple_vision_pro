@@ -127,3 +127,19 @@ html,body{
    white-space: nowrap;
   }
 
+  #page3{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-color: #fff;
+  }
+
+  #page3>img{
+    position: absolute;
+    /* height: 50%; */
+    width: 50%;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,  -50%);
+  }
+
