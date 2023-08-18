@@ -286,3 +286,10 @@ html,body{
     background-color: #ff5900;
   }
 
+
+  #page6{
+    position: relative;
+    height: 70vh;
+    width: 100vw;
+    background-color:#86868b28 ;
+  }
