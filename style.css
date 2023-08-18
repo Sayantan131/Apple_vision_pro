@@ -270,4 +270,19 @@ html,body{
     color: #86868b;
   }
 
+  .right5>button{
+    position: absolute;
+    bottom: 30%;
+    font-size: 1.4vw;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    background-color: #ff5900cf;
+    color: #fff;
+    transition: 0.5s;
+  }
+
+  .right5>button:hover{
+    background-color: #ff5900;
+  }
 
