@@ -471,4 +471,36 @@ html,body{
 }
 
 
+#page14{
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #fff;
+  z-index: 100;
 
+
+}
+
+.left14{
+  position: relative;
+  height: 90%;
+  width: 45%;
+  /* background-color: pink; */
+  background-image: url(https://www.apple.com/v/apple-vision-pro/a/images/overview/design/glass_top__k3b8lzqd1l2m_large.jpg);
+ background-size: cover;
+  
+  padding-left: 20px;
+}
+
+.right14{
+  position: relative;
+  height: 90%;
+  width: 45%;
+  /* background-color: blue; */
+  background-image: url(https://www.apple.com/v/apple-vision-pro/a/images/overview/design/glass_side__gm4agomrwl2e_large.jpg);
+  background-size: cover;
+  padding-right: 20px;
+}
