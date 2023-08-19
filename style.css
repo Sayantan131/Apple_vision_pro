@@ -471,6 +471,8 @@ html,body{
 }
 
 
+
+
 #page14{
   position: relative;
   display: flex;
@@ -503,4 +505,29 @@ html,body{
   background-image: url(https://www.apple.com/v/apple-vision-pro/a/images/overview/design/glass_side__gm4agomrwl2e_large.jpg);
   background-size: cover;
   padding-right: 20px;
+}
+
+#page15{
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+#center-page15{
+  height: 90%;
+  width: 95%;
+  
+  position: relative;
+}
+
+#center-page15>video{
+  position: relative;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
 }
