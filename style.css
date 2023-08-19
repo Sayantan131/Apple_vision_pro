@@ -531,3 +531,41 @@ html,body{
   height: 100%;
   width: 100%;
 }
+
+#page16{
+  position: relative;
+  height: 120vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#page16>h1{
+  position: absolute;
+  width: 35%;
+  color: #434343c7;
+  font-weight: 500;
+  top: 10%;
+  padding-bottom: 10px;
+  font-size: 1.3vw;
+}
+#page16>h1>span{
+  color: #000000c9;
+}
+#page16>img{
+  width: 50%;
+  position: absolute;
+  bottom: 0%;
+}
+#page16>button{
+  position: absolute;
+  bottom: 10%;
+  padding: 10px 20px;
+  font-size: 1.5vw;
+  border-radius: 50px;
+  background-color: #ff823d;
+  color: #fff;
+  font-weight: 500;
+  border: none;
+}
