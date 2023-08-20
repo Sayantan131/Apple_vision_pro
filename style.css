@@ -660,8 +660,13 @@ html,body{
   width: 20%;
   bottom: 35%;
   right: 15%;
-  color: #fff;
+  color: #86868b;
 }
 #center-page20>h1{
   margin-bottom: 1.7vw;
+  color: #fff;
+}
+#page20>#center-page20>p>span{
+  
+  color: #fff;
 }
