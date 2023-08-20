@@ -547,4 +547,17 @@ tl4.to("#page22>#snroff",{
   opacity:0
 })
 
+// gsap.to("#page23>img",{
+//   scrollTrigger:{
+//     trigger:`#page23>img`,
+//     start:`top bottom`,
+//     end:`bottom 60%`,
+//     scrub:.5,
+//     scroller:`#main`
+//   },
+//   opacity:1
+// })
+
+
+
 
