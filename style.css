@@ -705,7 +705,7 @@ html,body{
   background-color: #000;
 } */
 
-#center-page-text{
+#center-page-text21{
   position: absolute;
   width: 100%;
   background-color: #000;
@@ -718,12 +718,12 @@ html,body{
    top: 70%;
    z-index: 2;
 }
-#center-page-text>h1{
+#center-page-text21>h1{
   font-size: 2.5vw;
   color: #fff;
   margin-bottom: 40px ;
 }
-#center-page-text>p{
+#center-page-text21>p{
   font-size: 1.3vw;
   width: 35%;
   margin-bottom: 20px;
@@ -731,8 +731,7 @@ html,body{
   font-size: 1.4vw;
 }
 
-#center-page-text>p>span{
-  
+#center-page-text21>p>span{
   color: #fff;
 }
 
@@ -778,7 +777,7 @@ html,body{
   /* height: 50%; */
   width: 50%;
   left: 50%;
-  top: 50%;
+  top: 40%;
   transform: translate(-50%, -50%);
   z-index: 9;
 }
@@ -788,7 +787,36 @@ html,body{
   /* height: 50%; */
   width: 50%;
   left: 50%;
-  top: 50%;
+  top: 40%;
   transform: translate(-50%, -50%);
 }
 
+#center-page-text22{
+  position: absolute;
+  width: 100%;
+  background-color: #000;
+  bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+   top: 70%;
+   z-index: 2;
+}
+#center-page-text22>h1{
+  font-size: 2.5vw;
+  color: #fff;
+  margin-bottom: 40px ;
+}
+#center-page-text22>p{
+  font-size: 1.3vw;
+  width: 35%;
+  margin-bottom: 20px;
+  color: #86868b;
+  font-size: 1.4vw;
+}
+
+#center-page-text22>p>span{
+  color: #fff;
+}
