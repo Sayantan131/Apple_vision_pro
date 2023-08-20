@@ -642,8 +642,26 @@ html,body{
 }
 
 #page20>video{
-  position: relative;
+  /* position: relative; */
   height: 100%;
   width: 100%;
   object-fit: cover;
+}
+
+/* #center-page20{
+  position: absolute;
+  height: 20%;
+  width: 20%;
+  color: #fff;
+} */
+#center-page20{
+  position: absolute;
+  height: 20%;
+  width: 20%;
+  bottom: 35%;
+  right: 15%;
+  color: #fff;
+}
+#center-page20>h1{
+  margin-bottom: 1.7vw;
 }
