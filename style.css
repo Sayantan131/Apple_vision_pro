@@ -672,3 +672,122 @@ html,body{
   color: #fff;
 }
 
+#page21{
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  background-color: #000;
+}
+
+#page21>#troff{
+  position: absolute;
+  height: 50%;
+  width: 50%;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  z-index: 9;
+}
+
+#page21>#tron{
+  position: absolute;
+  height: 50%;
+  width: 50%;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+}
+
+/* #page-text{
+  position: relative;
+  height: 30vh;
+  width: 100vw;
+  background-color: #000;
+} */
+
+#center-page-text{
+  position: absolute;
+  width: 100%;
+  background-color: #000;
+  bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+   top: 70%;
+   z-index: 2;
+}
+#center-page-text>h1{
+  font-size: 2.5vw;
+  color: #fff;
+  margin-bottom: 40px ;
+}
+#center-page-text>p{
+  font-size: 1.3vw;
+  width: 35%;
+  margin-bottom: 20px;
+  color: #86868b;
+  font-size: 1.4vw;
+}
+
+#center-page-text>p>span{
+  
+  color: #fff;
+}
+
+
+
+
+
+/* #center-page-text{
+  position: absolute;
+  width: 25%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  
+}
+#center-page-text>h1{
+  font-size: 2.3vw;
+  color: #fff;
+  margin-bottom: 20px;
+  white-space: nowrap;
+  z-index: 11;
+  top: 0;
+}
+
+#center-page-text>p{
+  color: #86868b;
+} */
+
+
+
+#page22{
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  background-color: #000;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#page22>#snroff{
+  position: absolute;
+  /* height: 50%; */
+  width: 50%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9;
+}
+
+#page22>#snron{
+  position: absolute;
+  /* height: 50%; */
+  width: 50%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
